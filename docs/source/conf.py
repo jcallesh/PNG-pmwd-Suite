@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'PNG-pmwd Suite'
+copyright = '2025, Juan Calles'
+author = 'Juan Calles'
 
 release = '0.1'
 version = '0.1.0'
