@@ -1,4 +1,4 @@
-.. _Post-processing data:
+.. _post-processing-data:
 
 ********************
 Post-processing data

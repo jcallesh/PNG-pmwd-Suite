@@ -55,3 +55,19 @@ If you use data from the PNG-pmwd Suite, please cite:
 
 .. note::
     Powered@NLHPC: This research was partially supported by the supercomputing infrastructure of the NLHPC (CCSS210001).
+
+.. toctree::
+   :maxdepth: 2
+   :caption: PNG-pmwd Suite
+
+   access
+   latin_hypercubes
+   post-processing-data
+   tutorials
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: license
+
+   license
