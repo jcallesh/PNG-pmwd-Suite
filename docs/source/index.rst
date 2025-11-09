@@ -63,7 +63,14 @@ If you use data from the PNG-pmwd Suite, please cite:
    access
    latin_hypercubes
    post-processing-data
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Tutorials
+
    Tutorial/Data_reading
+   Tutorial/Powerspectrum
+   Tutorial/Bispectrum
 
 
 .. toctree::

@@ -69,4 +69,4 @@ The catalogs can be used in Python with the following script:
 
 In addition, we provide .json files for each simulation containing detailed metadata, configuration, and cosmology information.
 
-Check the Tutorial notebook `(here) <https://github.com/jcallesh/PNG-pmwd-Suite/blob/main/docs/source/Tutorial/Data_reading.ipynb>`_.
+Check the Tutorial notebook `Data Reading <Tutorial/Data_reading.html>`_.
