@@ -1,9 +1,4 @@
-Template for the Read the Docs tutorial
-=======================================
+PNG-pmwd-Suite
+==============
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+PNG-pmwd Suite is a lightweight, halo catalog designed to explore the imprint of primordial non-Gaussianity (PNG) on large-scale structure formation.
