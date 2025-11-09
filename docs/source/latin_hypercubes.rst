@@ -68,4 +68,5 @@ The catalogs can be used in Python with the following script:
     mass_h = mycat['mass'][1:]                    # shape: (N_halos,)   --> Halo mass in Msun/h
 
 In addition, we provide .json files for each simulation containing detailed metadata, configuration, and cosmology information.
-Check the Tutorial notebook `(Tutorial.ipynb) <Tutorial/tutorial.ipynb>`_.
+
+Check the Tutorial notebook `(here) <https://github.com/jcallesh/PNG-pmwd-Suite/blob/main/docs/source/Tutorial/Data_reading.ipynb>`_.

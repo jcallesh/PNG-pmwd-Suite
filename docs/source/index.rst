@@ -63,7 +63,7 @@ If you use data from the PNG-pmwd Suite, please cite:
    access
    latin_hypercubes
    post-processing-data
-   tutorials
+   Tutorial/Data_reading
 
 
 .. toctree::

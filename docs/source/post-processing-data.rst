@@ -51,7 +51,7 @@ where:
 - :math:`P0PSN: P^{\ell=0}+PSN`, :math:`P2: P^{\ell=2}(k)`, and :math:`P4: P^{\ell=4}(k)` are the monopole, quadrupole, and hexadecapole moments.
 - :math:`PSN` is the Poisson shot noise.
 
-Power spectra are in units of :math:`[h/Mpc]^3`.
+Power spectra are in units of :math:`[h/Mpc]^3`. Check the Tutorial notebook `(here) <https://github.com/jcallesh/PNG-pmwd-Suite/blob/main/docs/source/Tutorial/Data_reading.ipynb>`_.
 
 **Bispectrum**
 
@@ -75,3 +75,5 @@ Where:
     where :math:`n` is the halo number density.
 - :math:`N_{tr}` is the number of triangles in the bin
 - :math:`B2` and :math:`B4` are the bispectrum quadrupole and hexadecapole moments, respectively.
+
+Check the Tutorial notebook `(here) <https://github.com/jcallesh/PNG-pmwd-Suite/blob/main/docs/source/Tutorial/Data_reading.ipynb>`_.
