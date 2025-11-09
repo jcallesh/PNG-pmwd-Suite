@@ -18,7 +18,7 @@ The suite includes:
 
 The dark matter snapshots were generated using the `Differentiable Cosmological Simulation with the Adjoint Method <https://iopscience.iop.org/article/10.3847/1538-4365/ad0ce7>`_, a fast N-body solver fully differentiable implemented in JAX and freely available at `pmwd code <https://github.com/eelregit/pmwd/tree/master>`_.
 
-Initial conditions are set using second-order Lagrangian displacement (2LPT) at redshift :math:`z=9`, with a linear power spectrum based on the the transfer functions of `Eisenstein & Hu <https://background.uchicago.edu/~whu/transfer/transferpage.html>`_. The linear matter power spectrum for the fiducial cosmology can be found `here <linear_powerspectrum/pmwd_matterpow_0p503.dat>`_.
+Initial conditions are set using second-order Lagrangian displacement (2LPT) at redshift :math:`z=9`, with a linear power spectrum based on the the transfer functions of `Eisenstein & Hu <https://background.uchicago.edu/~whu/transfer/transferpage.html>`_. The linear matter power spectrum for the fiducial cosmology can be found `here <https://github.com/jcallesh/PNG-pmwd-Suite/blob/main/docs/source/linear_powerspectrum/pmwd_matterpow_0p503.dat>`__.
 
 Each simulation evolves :math:`512^3` dark matter particles in a periodic box of size :math:`(1 Gpc/h)^3` over 20 time steps, reaching the final redshift of :math:`z=0.5030475235459835`.
 

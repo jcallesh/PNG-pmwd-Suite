@@ -6,4 +6,4 @@ Tutorials
 
 .. nbgallery::
 
-   Tutorial/Data_reading
+   Examples/Data_reading

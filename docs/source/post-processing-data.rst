@@ -31,7 +31,7 @@ expressed in :math:`(km/s)(h/Mpc)`, and evaluated using each simulation's cosmol
 
 **Power spectrum**
 
-We compute the redshift-space halo power spectrum using the public PBI4 tool `(available here) <https://github.com/matteobiagetti/pbi4>`_, , which implements a fourth-order interpolation scheme with interlacing. This method follows the approach detailed in `Sefusatti, Crocce, Scoccimarro, Couchman <https://arxiv.org/abs/1512.07295>`_.
+We compute the redshift-space halo power spectrum using the public PBI4 tool `(available here) <https://github.com/matteobiagetti/pbi4>`_, which implements a fourth-order interpolation scheme with interlacing. This method follows the approach detailed in `Sefusatti, Crocce, Scoccimarro, Couchman <https://arxiv.org/abs/1512.07295>`_.
 
 Power spectrum measurements are binned using a spacing of :math:`\Delta k = 2k_f`, where the fundamental mode is defined by the box size as :math:`k_f \approx 0.006 [h/Mpc]`. The analysis includes modes up to :math:`k_{max} \approx 0.45 [h/Mpc]` in :math:`36` bins.
 
@@ -53,7 +53,7 @@ where:
 
 Power spectra are in units of :math:`[h/Mpc]^3`.
 
-**bispectrum**
+**Bispectrum**
 
 Using the same k-bin definitions as in the power spectrum analysis, we also compute the redshift-space bispectrum for each halo catalog. The bispectrum includes :math:`1522` triangle configurations formed by triplets of wavevectors with :math:`k_i \leq 0.3 [h/Mpc]`.
 
