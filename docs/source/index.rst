@@ -7,14 +7,14 @@ PNG-pmwd Suite
    :width: 500
    :alt: PNG-pmwd Suite logo
 
-The PNG-pmwd Suite is a collection of :math:`22,410` halo catalogs developed to support data-driven analyses of large-scale structure formation and the impact of primordial non-Gaussianity (PNG).
+The PNG-pmwd Suite is a collection of :math:`22{,}410` halo catalogs developed to support data-driven analyses of large-scale structure formation and the impact of primordial non-Gaussianity (PNG).
 
 The suite includes:
 
 - 6 Latin hypercube sets evaluated at redshift :math:`0.5030475235459835`.
 - All datasets incorporate non-Gaussian initial conditions.
 - Two additional datasets, one corresponding to a fiducial flat :math:`\Lambda` CDM cosmology and 1P design that varies one parameter at a time.
-- :math:`22,421` CPU hours used.
+- :math:`22{,}421` CPU hours used.
 
 The dark matter snapshots were generated using the `Differentiable Cosmological Simulation with the Adjoint Method <https://iopscience.iop.org/article/10.3847/1538-4365/ad0ce7>`_, a fast N-body solver fully differentiable implemented in JAX and freely available at `pmwd code <https://github.com/eelregit/pmwd/tree/master>`_.
 
@@ -74,8 +74,8 @@ If you use data from the PNG-pmwd Suite, please cite:
 
 .. toctree::
    :maxdepth: 2
-   :caption: license
-   
+   :caption: Other
+
    team
    citation
    help
