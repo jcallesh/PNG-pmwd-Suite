@@ -75,6 +75,7 @@ If you use data from the PNG-pmwd Suite, please cite:
 .. toctree::
    :maxdepth: 2
    :caption: license
+   
    team
    citation
    help
