@@ -72,9 +72,10 @@ If you use data from the PNG-pmwd Suite, please cite:
    Tutorial/Powerspectrum
    Tutorial/Bispectrum
 
-
 .. toctree::
    :maxdepth: 2
    :caption: license
-
+   team
+   citation
+   help
    license
