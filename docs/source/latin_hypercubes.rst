@@ -12,6 +12,7 @@ The PNG-pmwd Suite explores variations in both primordial non-Gaussiniaties ampl
 The fiducial cosmology and simulation specifications are chosen to closely match the characteristics of the `Quijote simulations <https://arxiv.org/abs/1909.05273>`_, assuming a flat :math:`\Lambda` CDM cosmology with:
 
     :math:`\Omega_m=0.3175`, :math:`\Omega_b=0.049`, :math:`h=0.6711`, :math:`n_s=0.9624`, :math:`\sigma_8=0.834`,
+    
     :math:`f_{NL}^{local}=0`, and :math:`f_{NL}^{equil}=0`.
 
 We summarize all the datasets in the following table:
