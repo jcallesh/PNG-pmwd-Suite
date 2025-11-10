@@ -24,27 +24,12 @@ Each simulation evolves :math:`512^3` dark matter particles in a periodic box of
 
 To implement primordial non-Gaussian initial conditions, we developed a modified version of the code based on the prescription by `Scoccimarro, Hui, Manera, and Chan <https://arxiv.org/abs/1108.5512>`_.
 
-    > The updated codebase with local and equilateral templates can be found at: `pmwd PNG version <https://github.com/jcallesh/pmwd/tree/master>`_.
-
-Each simulation is initialized with a unique random seed, consistently applied across all datasets. Specifically, simulation :math:`i` uses a seed given by :math:`10 \times i + 5`. For example, both 'LH_LC/pmwd_halos_run10.npz' and 'LH_EQ/pmwd_halos_run10.npz' are initialized with a seed value of 105.
-
-The fiducial cosmology and simulation specifications are chosen to closely match the characteristics of the `Quijote simulations <https://arxiv.org/abs/1909.05273>`_, assuming a flat :math:`\Lambda` CDM cosmology with:
-
-    :math:`\Omega_m=0.3175`, :math:`\Omega_b=0.049`, :math:`h=0.6711`, :math:`n_s=0.9624`, :math:`\sigma_8=0.834`, :math:`f_{NL}^{local}=0`, and :math:`f_{NL}^{equil}=0`.  
+    > The updated codebase with local and equilateral templates can be found at: `pmwd PNG version <https://github.com/jcallesh/pmwd/tree/master>`_.  
 
 Halos are identified using a Friends-of-Friends (FoF) algorithm `(Davis, Efstathiou, Frenk, and White) <https://ui.adsabs.harvard.edu/abs/1985ApJ...292..371D>`_ with a linking length of 0.2.
 We use the public `nbodykit <https://nbodykit.readthedocs.io/en/latest/index.html>`_ library and store halos containing at least 20 particles.
 Dark matter particle snapshots are not stored.
 
-
-Team
-----
-
-The PNG-pmwd Suite was developed in 2025 by:
-
-- **Juan Calles** (Universidad de Valparaíso, Chile)
-- **Gabriella Contardo** (????)
-- **Jorge Noreña** (Pontificia Universidad Católica de Valparaíso, Chile)
 
 Citation
 --------
