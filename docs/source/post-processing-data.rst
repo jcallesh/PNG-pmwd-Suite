@@ -31,15 +31,21 @@ expressed in :math:`(km/s)(h/Mpc)`, and evaluated using each simulation's cosmol
 
 **Mass bins** 
 
-And the mass bins are defined as:
+Mass bins are defined as:
 
-- **mbin0** : HFull   = :math:`[3.28\times10^{13},\ \infty)` in Msun/h
-- **mbin1** : HLow-A  = :math:`[3.28,\ 4.46)\times10^{13}` in Msun/h
-- **mbin2** : HLow-B  = :math:`[4.46,\ 7.09)\times10^{13}` in Msun/h
-- **mbin3** : HMid    = :math:`[7.09\times10^{13},\ \infty)` in Msun/h
-- **mbin4** : HMid-A  = :math:`[7.09,\ 9.06)\times10^{13}` in Msun/h
-- **mbin5** : HMid-B  = :math:`[9.06,\ 13.26)\times10^{13}` in Msun/h
-- **mbin6** : HHigh   = :math:`[13.26\times10^{13},\ \infty)` in Msun/h
+- ``mbin0`` : HFull   = :math:`[3.28\times10^{13},\ \infty)` in Msun/h
+- ``mbin1`` : HLow-A  = :math:`[3.28,\ 4.46)\times10^{13}` in Msun/h
+- ``mbin2`` : HLow-B  = :math:`[4.46,\ 7.09)\times10^{13}` in Msun/h
+- ``mbin3`` : HMid    = :math:`[7.09\times10^{13},\ \infty)` in Msun/h
+- ``mbin4`` : HMid-A  = :math:`[7.09,\ 9.06)\times10^{13}` in Msun/h
+- ``mbin5`` : HMid-B  = :math:`[9.06,\ 13.26)\times10^{13}` in Msun/h
+- ``mbin6`` : HHigh   = :math:`[13.26\times10^{13},\ \infty)` in Msun/h
+
+In the following chart, we show the hierarchical structure of mass bins:
+
+.. image:: Mass-bins.png
+   :width: 500
+   :alt: Massbinning
 
 And we provide measurements on Realspace and Redshift-space distortions:
 
