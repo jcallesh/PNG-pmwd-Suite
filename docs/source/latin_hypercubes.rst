@@ -15,7 +15,7 @@ The fiducial cosmology and simulation specifications are chosen to closely match
     \Omega_m=0.3175,\, \Omega_b=0.049,\, h=0.6711,\, n_s=0.9624,\, \sigma_8=0.83,
     
 .. math::
-    f_{NL}^{local}=0,\, \rm{and}\. f_{NL}^{equil}=0\,.
+    f_{NL}^{local}=0,\, \rm{and}\; f_{NL}^{equil}=0\,.
 
 We summarize all the datasets in the following table:
 
