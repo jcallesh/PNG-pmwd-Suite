@@ -43,7 +43,7 @@ Mass bins are defined as:
 
 In the following chart, we show the hierarchical structure of mass bins:
 
-.. image:: Mass-bins.png
+.. image:: mass-bin.png
    :width: 500
    :alt: Massbinning
 
