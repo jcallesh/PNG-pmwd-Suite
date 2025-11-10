@@ -39,7 +39,7 @@ We summarize all the datasets in the following table:
 |     1P         |   [0.2825,0.3525]   |      [0.804, 0.864]         |                 [-50,50]                 |           [-250,250]                     |         410  |
 +----------------+---------------------+-----------------------------+------------------------------------------+------------------------------------------+--------------+
 
-Each simulation is initialized with a unique random seed, consistently applied across all datasets. Specifically, simulation :math:`i` uses a seed given by :math:`10 \times i + 5`. For example, both 'LH_LC/pmwd_halos_run10.npz' and 'LH_EQ/pmwd_halos_run10.npz' are initialized with a seed value of 105.
+Each simulation is initialized with a unique random seed, consistently applied across all datasets. Specifically, simulation :math:`i` uses a seed given by :math:`10 \times i + 5`. For example, both 'LH_LC300/pmwd_halos_run10.npz' and 'LH_EQ600/pmwd_halos_run10.npz' are initialized with a seed value of 105.
 
 For the fiducial case, we add :math:`2{,}000` simulations using the same seeding strategy as the LH set.
 
