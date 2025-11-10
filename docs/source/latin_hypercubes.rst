@@ -41,7 +41,7 @@ We summarize all the datasets in the following table:
 
 Each simulation is initialized with a unique random seed, consistently applied across all datasets. Specifically, simulation :math:`i` uses a seed given by :math:`10 \times i + 5`. For example, both 'LH_LC/pmwd_halos_run10.npz' and 'LH_EQ/pmwd_halos_run10.npz' are initialized with a seed value of 105.
 
-For the fiducial case, we add :math:`2,000` simulations using the same seeding strategy as the LH set.
+For the fiducial case, we add :math:`2{,}000` simulations using the same seeding strategy as the LH set.
 
 In addition, we include a dataset that varies each parameter at a time within the same range as the LH set with linearly sampled steps sizes:
 .. math::
@@ -50,7 +50,7 @@ In addition, we include a dataset that varies each parameter at a time within th
 For each parameter, we consider 5 negative and 5 positive steps from the fiducial value, resulting in 10 steps per parameter and 40 configurations in total. For each configuration we include 10 realizations, totaling 400 simulations.
 However, the seeding strategey has been shifted by 10000 for realizations 0 to 9.
 
-Total realization count: :math:`22,410` across all datasets. The parameter ranges are centered around the fiducial cosmology in the parameter space.
+Total realization count: :math:`22{,}410` across all datasets. The parameter ranges are centered around the fiducial cosmology in the parameter space.
 
 The values for each parameter set are provided in the corresponding text files named latin_hypercube_params_{dataset}.txt, where {dataset} matches the labels listed in the table.
 
