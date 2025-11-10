@@ -15,7 +15,7 @@ The fiducial cosmology and simulation specifications are chosen to closely match
     \Omega_m=0.3175,\, \Omega_b=0.049,\, h=0.6711,\, n_s=0.9624,\, \sigma_8=0.83,
     
 .. math::
-    f_{NL}^{local}=0,\, \rm{and}\, f_{NL}^{equil}=0\,.
+    f_{NL}^{local}=0,\, \rm{and}\. f_{NL}^{equil}=0\,.
 
 We summarize all the datasets in the following table:
 
@@ -44,6 +44,7 @@ Each simulation is initialized with a unique random seed, consistently applied a
 For the fiducial case, we add :math:`2{,}000` simulations using the same seeding strategy as the LH set.
 
 In addition, we include a dataset that varies each parameter at a time within the same range as the LH set with linearly sampled steps sizes:
+
 .. math::
     \Delta\Omega_m:0.007,\, \Delta\sigma_8:0.006,\, \Delta f_{\textrm{NL}}^{\textrm{local}}:10,\, \rm{and} \,\Delta f_{\textrm{NL}}^{\textrm{equil}}:50\,.
 
