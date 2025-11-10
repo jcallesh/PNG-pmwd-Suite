@@ -12,7 +12,10 @@ The PNG-pmwd Suite explores variations in both primordial non-Gaussianity amplit
 The fiducial cosmology and simulation specifications are chosen to closely match the characteristics of the `Quijote simulations <https://arxiv.org/abs/1909.05273>`_, assuming a flat :math:`\Lambda` CDM cosmology with:
 
 .. math::
-    \Omega_m=0.3175,\, \Omega_b=0.049,\, h=0.6711,\, n_s=0.9624,\, \sigma_8=0.83,\\ f_{NL}^{local}=0,\, \rm{and}\, f_{NL}^{equil}=0.
+    \Omega_m=0.3175,\, \Omega_b=0.049,\, h=0.6711,\, n_s=0.9624,\, \sigma_8=0.83,
+    
+.. math::
+    f_{NL}^{local}=0,\, \rm{and}\, f_{NL}^{equil}=0\,.
 
 We summarize all the datasets in the following table:
 
@@ -41,8 +44,8 @@ Each simulation is initialized with a unique random seed, consistently applied a
 For the fiducial case, we add :math:`2,000` simulations using the same seeding strategy as the LH set.
 
 In addition, we include a dataset that varies each parameter at a time within the same range as the LH set with linearly sampled steps sizes:
-    
-    :math:`\Delta\Omega_m:0.007`, :math:`\Delta\sigma_8:0.006`, :math:`\Delta f_{\textrm{NL}}^{\textrm{local}}:10`, and :math:`\Delta f_{\textrm{NL}}^{\textrm{equil}}:50`.
+.. math::
+    \Delta\Omega_m:0.007,\, \Delta\sigma_8:0.006,\, \Delta f_{\textrm{NL}}^{\textrm{local}}:10,\, \rm{and} \,\Delta f_{\textrm{NL}}^{\textrm{equil}}:50\,.
 
 For each parameter, we consider 5 negative and 5 positive steps from the fiducial value, resulting in 10 steps per parameter and 40 configurations in total. For each configuration we include 10 realizations, totaling 400 simulations.
 However, the seeding strategey has been shifted by 10000 for realizations 0 to 9.
