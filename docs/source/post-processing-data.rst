@@ -29,6 +29,24 @@ Where:
 
 expressed in :math:`(km/s)(h/Mpc)`, and evaluated using each simulation's cosmology.
 
+**Mass bins** 
+
+And the mass bins are defined as:
+
+- **mbin0** : HFull   = :math:`[3.28\times10^{13},\ \infty)` in Msun/h
+- **mbin1** : HLow-A  = :math:`[3.28,\ 4.46)\times10^{13}` in Msun/h
+- **mbin2** : HLow-B  = :math:`[4.46,\ 7.09)\times10^{13}` in Msun/h
+- **mbin3** : HMid    = :math:`[7.09\times10^{13},\ \infty)` in Msun/h
+- **mbin4** : HMid-A  = :math:`[7.09,\ 9.06)\times10^{13}` in Msun/h
+- **mbin5** : HMid-B  = :math:`[9.06,\ 13.26)\times10^{13}` in Msun/h
+- **mbin6** : HHigh   = :math:`[13.26\times10^{13},\ \infty)` in Msun/h
+
+And we provide measurements on Realspace and Redshift-space distortions:
+
+- Real space tag: ``real``
+- Redshift-space distortions (RSD): ``irsd3``
+
+
 **Power spectrum**
 
 We compute the redshift-space halo power spectrum using the public PBI4 tool `(available here) <https://github.com/matteobiagetti/pbi4>`_, which implements a fourth-order interpolation scheme with interlacing. This method follows the approach detailed in `Sefusatti, Crocce, Scoccimarro, Couchman <https://arxiv.org/abs/1512.07295>`_.
