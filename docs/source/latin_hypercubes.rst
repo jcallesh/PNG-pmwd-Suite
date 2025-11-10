@@ -50,7 +50,6 @@ However, the seeding strategey has been shifted by 10000 for realizations 0 to 9
 Total realization count: :math:`22,410` across all datasets. The parameter ranges are centered around the fiducial cosmology in the parameter space.
 
 The values for each parameter set are provided in the corresponding text files named latin_hypercube_params_{dataset}.txt, where {dataset} matches the labels listed in the table.
-And 'one_params_steps.txt' contains the values for the 1P dataset. 
 
 The Latin hypercubes values can also be found in `here <https://github.com/jcallesh/PNG-pmwd-Suite/tree/main/docs/source/Latin_hypercube>`__.
 
