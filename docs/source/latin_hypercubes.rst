@@ -4,16 +4,15 @@
 Latin-hypercubes
 ****************
 
-The PNG-pmwd Suite explores variations in both primordial non-Gaussiniaties amplitudes and standard cosmological parameters:
+The PNG-pmwd Suite explores variations in both primordial non-Gaussianity amplitudes and standard cosmological parameters:
 
 - **Primordial Non-Gaussianity**: (:math:`f_{\textrm{NL}}^{\textrm{local}}`:, :math:`f_{\textrm{NL}}^{\textrm{equil}}`)
 - **Standard Cosmology**: (:math:`\Omega_m`, :math:`\sigma_8`)
 
 The fiducial cosmology and simulation specifications are chosen to closely match the characteristics of the `Quijote simulations <https://arxiv.org/abs/1909.05273>`_, assuming a flat :math:`\Lambda` CDM cosmology with:
 
-    :math:`\Omega_m=0.3175`, :math:`\Omega_b=0.049`, :math:`h=0.6711`, :math:`n_s=0.9624`, :math:`\sigma_8=0.834`,
-    
-    :math:`f_{NL}^{local}=0`, and :math:`f_{NL}^{equil}=0`.
+.. math::
+    \Omega_m=0.3175,\, \Omega_b=0.049,\, h=0.6711,\, n_s=0.9624,\, \sigma_8=0.83,\\ f_{NL}^{local}=0,\, \rm{and}\, f_{NL}^{equil}=0.
 
 We summarize all the datasets in the following table:
 
@@ -45,7 +44,7 @@ In addition, we include a dataset that varies each parameter at a time within th
     
     :math:`\Delta\Omega_m:0.007`, :math:`\Delta\sigma_8:0.006`, :math:`\Delta f_{\textrm{NL}}^{\textrm{local}}:10`, and :math:`\Delta f_{\textrm{NL}}^{\textrm{equil}}:50`.
 
-For each parameter, we consider 5 negative and 5 positve steps from the fiducial value, resulting in 10 steps per parameter and 40 configurations in total. For each configuration we include 10 realizations, totaling 400 simulations.
+For each parameter, we consider 5 negative and 5 positive steps from the fiducial value, resulting in 10 steps per parameter and 40 configurations in total. For each configuration we include 10 realizations, totaling 400 simulations.
 However, the seeding strategey has been shifted by 10000 for realizations 0 to 9.
 
 Total realization count: :math:`22,410` across all datasets. The parameter ranges are centered around the fiducial cosmology in the parameter space.
