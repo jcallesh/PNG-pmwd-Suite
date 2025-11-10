@@ -72,7 +72,7 @@ where:
 
 - ``k``: is the wavenumber bin center in units of :math:`[h/Mpc]`.
 - ``kavg``: is the average wavenumber in the bin.
-- ``P0PSN``: :math:`P^{\ell=0}+PSN`, :math:`P2: P^{\ell=2}(k)`, and :math:`P4: P^{\ell=4}(k)` are the monopole, quadrupole, and hexadecapole moments.
+- ``P0PSN``: :math:`P^{\ell=0}+PSN`, ``P2``: :math:`P^{\ell=2}(k)`, and ``P4``: :math:`P^{\ell=4}(k)` are the monopole, quadrupole, and hexadecapole moments.
 - ``PSN``: is the Poisson shot noise.
 
 Power spectra are in units of :math:`[h/Mpc]^3`. Check the Tutorial notebook `Powerspectrum <Tutorial/Powerspectrum.html>`_.
@@ -94,7 +94,7 @@ Where:
 
 - ``k1, k2, k3``: are the wavenumbers of the triangle sides in units of the fundamental frequency :math:`k_f`.
 - ``B0BSN``: :math:`= B(k_1,k_2,k_3)` is the measured bispectrum :math:`[h/Mpc]^6`; includes the shot-noise contribution.
-- ``BSN``: is the shot-noise correction computed as:
+- ``BSN`` is the shot-noise correction computed as:
     :math:`BSN = \frac{1}{\bar{n}^2} + \frac{P(k_1) + P(k_2) + P(k_3)}{\bar{n}}`
     where :math:`\bar{n}` is the halo number density.
 - ``N_{tr}``: is the number of triangles in the bin
