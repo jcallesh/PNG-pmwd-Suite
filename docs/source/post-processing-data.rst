@@ -14,7 +14,9 @@ All measurements are performed in redshift space. To mimic observational data, w
 
 The redshift-space displacement is given by:
 
-:math:`\boldsymbol{x}_{\text{rs}} = \boldsymbol{x} + \frac{\boldsymbol{v} \cdot \hat{\boldsymbol{z}}}{a(z) H(z)} \hat{\boldsymbol{z}}`
+.. math::
+    
+    \boldsymbol{x}_{\text{rs}} = \boldsymbol{x} + \frac{\boldsymbol{v} \cdot \hat{\boldsymbol{z}}}{a(z) H(z)} \hat{\boldsymbol{z}}
 
 Where:
 
