@@ -79,6 +79,9 @@ where:
 
 Power spectra are in units of :math:`[h/Mpc]^3`. Check the Tutorial notebook `Powerspectrum <Tutorial/Powerspectrum.html>`_.
 
+.. note::
+    The Powerspectrum is defined following the Fourier convetion: $\langle \delta(\mathbf{k}_1)\delta^(\mathbf{k}_2) \rangle =  \delta_D(\mathbf{k}_1+\mathbf{k}_2) P(k_1)$
+
 **Bispectrum**
 
 Using the same k-bin definitions as in the power spectrum analysis, we also compute the redshift-space bispectrum for each halo catalog. The bispectrum includes :math:`1522` triangle configurations formed by triplets of wavevectors with :math:`k_i \leq 0.3 [h/Mpc]`.
@@ -103,3 +106,6 @@ Where:
 - ``B2`` and ``B4``: are the bispectrum quadrupole and hexadecapole moments, respectively.
 
 Check the Tutorial notebook `Bispectrum <Tutorial/Bispectrum.html>`_.
+
+.. note::
+    The Bispectrum is defined following the Fourier convetion: $\langle \delta(\mathbf{k}_1)\delta^(\mathbf{k}_2)\delta^(\mathbf{k}_3) \rangle =  \delta_D(\mathbf{k}_1+\mathbf{k}_2+\mathbf{k}_3) B(k_1,k_2,k_3)$
