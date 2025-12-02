@@ -80,7 +80,7 @@ where:
 Power spectra are in units of :math:`[h/Mpc]^3`. Check the Tutorial notebook `Powerspectrum <Tutorial/Powerspectrum.html>`_.
 
 .. note::
-    The Powerspectrum is defined following the Fourier convetion: $\langle \delta(\mathbf{k}_1)\delta^(\mathbf{k}_2) \rangle =  \delta_D(\mathbf{k}_1+\mathbf{k}_2) P(k_1)$
+    The Powerspectrum is defined following the Fourier convetion: :math:`\langle \delta(\mathbf{k}_1)\delta^(\mathbf{k}_2) \rangle =  \delta_D(\mathbf{k}_1+\mathbf{k}_2) P(k_1)`
 
 **Bispectrum**
 
@@ -108,4 +108,4 @@ Where:
 Check the Tutorial notebook `Bispectrum <Tutorial/Bispectrum.html>`_.
 
 .. note::
-    The Bispectrum is defined following the Fourier convetion: $\langle \delta(\mathbf{k}_1)\delta^(\mathbf{k}_2)\delta^(\mathbf{k}_3) \rangle =  \delta_D(\mathbf{k}_1+\mathbf{k}_2+\mathbf{k}_3) B(k_1,k_2,k_3)$
+    The Bispectrum is defined following the Fourier convetion: :math:`\langle \delta(\mathbf{k}_1)\delta^(\mathbf{k}_2)\delta^(\mathbf{k}_3) \rangle =  \delta_D(\mathbf{k}_1+\mathbf{k}_2+\mathbf{k}_3) B(k_1,k_2,k_3)`
