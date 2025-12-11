@@ -36,7 +36,7 @@ Citation
 
 If you use data from the PNG-pmwd Suite, please cite:
 
-`XXXX (2025) <https://arxiv.org/abs/xxxx.xxxxx>`_
+`Primordial non-Gaussianity -- Fast simulations and persistent summary statistics (2025) <https://arxiv.org/abs/2512.09852>`_
 
 .. note::
     Powered@NLHPC: This research was partially supported by the supercomputing infrastructure of the NLHPC (CCSS210001).

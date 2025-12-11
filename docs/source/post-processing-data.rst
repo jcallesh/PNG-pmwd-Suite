@@ -8,9 +8,10 @@ We provide the following post-processed measurements derived from each simulatio
 
 - Halo-Halo Power spectrum.
 - Halo-Halo-Halo Bispectrum.
-- Others?
 
-All measurements are performed in redshift space. To mimic observational data, we apply the distant-observer approximation, shifting halo positions along the line of sight (assumed to be the z-axis). The shift accounts for the halo's peculiar velocity and the cosmological Hubble expansion, using the appropriate scale factor and cosmological parameters of each catalog.
+And we provide measurements on Realspace and Redshift-space distortions.
+
+In redshift space we apply the distant-observer approximation, shifting halo positions along the line of sight (assumed to be the z-axis). The shift accounts for the halo's peculiar velocity and the cosmological Hubble expansion, using the appropriate scale factor and cosmological parameters of each catalog.
 
 The redshift-space displacement is given by:
 
@@ -31,7 +32,7 @@ Where:
 
 expressed in :math:`(km/s)(h/Mpc)`, and evaluated using each simulation's cosmology.
 
-**Mass bins** 
+**Mass bins tags** 
 
 Mass bins are defined as:
 
@@ -43,16 +44,25 @@ Mass bins are defined as:
 - ``mbin5`` : HMid-B  = :math:`[9.06,\ 13.26)\times10^{13}` in Msun/h
 - ``mbin6`` : HHigh   = :math:`[13.26\times10^{13},\ \infty)` in Msun/h
 
+
 In the following chart, we show the hierarchical structure of mass bins:
 
 .. image:: massbin.svg
    :width: 500
    :alt: Massbinning
 
-And we provide measurements on Realspace and Redshift-space distortions:
+**Real-space and redshift-space tags**
 
 - Real space tag: ``real``
 - Redshift-space distortions (RSD): ``irsd3``
+
+
+When accessing the data on Globus, the file naming follows the convention:
+
+``powerspectrum_filename = 'powerspectrum_hh_pmwd_{space-tag}_{dataset}_{mbin-tag}_run1_grid144_z0p503.dat'``  
+``bispectrum_filename = 'bispectrum_hhh_pmwd_{space-tag}_{dataset}_{mbin-tag}_run1_grid144_z0p503.dat'``
+
+where ``{space-tag}`` is either ``real`` or ``irsd3`` (redshift space), ``{dataset}`` is the dataset label, and ``{mbin-tag}`` is the corresponding mass-bin identifier (``mbin0`` - ``mbin6``).
 
 
 **Power spectrum**

@@ -9,7 +9,7 @@ The PNG-pmwd Suite explores variations in both primordial non-Gaussianity amplit
 - **Primordial Non-Gaussianity**: (:math:`f_{\textrm{NL}}^{\textrm{local}}`:, :math:`f_{\textrm{NL}}^{\textrm{equil}}`)
 - **Standard Cosmology**: (:math:`\Omega_m`, :math:`\sigma_8`)
 
-The fiducial cosmology and simulation specifications are chosen to closely match the characteristics of the `Quijote simulations <https://arxiv.org/abs/1909.05273>`_, assuming a flat :math:`\Lambda` CDM cosmology with:
+The fiducial cosmology and simulation specifications are chosen to closely match the characteristics of the `Quijote simulations <https://arxiv.org/abs/1909.05273>`_, assuming a flat :math:`\Lambda\textrm{CDM}` cosmology with:
 
 .. math::
     \Omega_m=0.3175,\, \Omega_b=0.049,\, h=0.6711,\, n_s=0.9624,\, \sigma_8=0.83,
