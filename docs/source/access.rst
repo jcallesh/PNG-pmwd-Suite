@@ -12,9 +12,9 @@ You can access the collection directly using the following link:
 
 or search:
 
-**Collection Name:** wisc-drive-gshiu  
-**Collection ID:** ``c1ae3f00-2c11-474a-b8d9-fe263a3ecdbb``  
-**Data Path:** ``/PNG-pmwd/``
+- **Collection Name:** wisc-drive-gshiu  
+- **Collection ID:** ``c1ae3f00-2c11-474a-b8d9-fe263a3ecdbb``  
+- **Data Path:** ``/PNG-pmwd/``
 
 Data can be downloaded directly via the Globus web interface.  
 For instructions, see: https://docs.globus.org/guides/tutorials/manage-files/transfer-files/
