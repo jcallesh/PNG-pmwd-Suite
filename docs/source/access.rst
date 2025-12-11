@@ -20,9 +20,8 @@ Data can be downloaded directly via the Globus web interface.
 For instructions, see: https://docs.globus.org/guides/tutorials/manage-files/transfer-files/
 
 
-*****************
 Data Organization
-*****************
+-----------------
 
 The PNG-pmwd data are organized within the directory::
 
@@ -46,9 +45,9 @@ The relevant subdirectories and files are structured as follows:
 Here, ``{Dataset}`` corresponds to the labels described in the
 `Latin Hypercube table <Latin-hypercubes.html>`_.
 
-**********************
+
 Command Line Interface
-**********************
+----------------------
 
 You may also download the data using the Globus Command Line Interface (CLI).  
 
