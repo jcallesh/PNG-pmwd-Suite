@@ -71,7 +71,7 @@ The catalogs can be used in Python with the following script:
 
     z      = 0.5030475235459835
     pos_h  = mycat['pos'][:,1:]                   # shape: (3, N_halos) --> X,Y,Z Halo positions in Mpc/h
-    vel_h  = (mycat['vel'][:,1:]*100.*(1.+z))     # shape: (3, N_halos) --> Vx, Vy, Vz Halo peculiar velocities in km/s
+    vel_h  = mycat['vel'][:,1:]*100.*(1.+z)       # shape: (3, N_halos) --> Vx, Vy, Vz Halo peculiar velocities in km/s
     np_h   = mycat['np_h'][1:]                    # shape: (N_halos,)   --> Number of particles in each halo
     mass_h = mycat['mass'][1:]                    # shape: (N_halos,)   --> Halo mass in Msun/h
 
