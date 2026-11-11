@@ -40,6 +40,7 @@ The relevant subdirectories and files are structured as follows:
     │   │
     │   ├── latin_hypercube_params_{Dataset}.txt   # Latin hypercube parameter values
     │   │
+    ├── PSBS.tar                         # All power spectrum measurements (tar archive)
     /PNG-pmwd-extra40k/
     ├── tars_EQ_om_s8/
     │   ├── EQ_om_s8_chunk001_run10000-10999.tar
@@ -47,7 +48,7 @@ The relevant subdirectories and files are structured as follows:
     ├── tars_LC_om_s8//
     │   ├── LC_om_s8_chunk001_run10000-10999.tar
     │   │
-    ├── PSBS.tar                         # All power spectrum measurements (tar archive)
+
 
 Here, ``{Dataset}`` corresponds to the labels described in the
 `Latin Hypercube table <latin_hypercubes.html>`_.
