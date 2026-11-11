@@ -7,7 +7,7 @@ PNG-pmwd Suite
    :width: 500
    :alt: PNG-pmwd Suite logo
 
-The PNG-pmwd Suite is a collection of :math:`22{,}410` halo catalogs developed to support data-driven analyses of large-scale structure formation and the impact of primordial non-Gaussianity (PNG).
+The PNG-pmwd Suite is a collection of :math:`102{,}410` halo catalogs developed to support data-driven analyses of large-scale structure formation and the impact of primordial non-Gaussianity (PNG).
 
 The suite includes:
 
