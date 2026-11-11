@@ -55,10 +55,10 @@ Here, ``{Dataset}`` corresponds to the labels described in the
 .. note::
 
    An extended version of the ``LH_EQ_om_s8`` and ``LH_LC_om_s8`` datasets is available in
-   ``PNG-pmwd-extra40k/``. These datasets contain an additional `40{,}000` realizations for each
+   ``PNG-pmwd-extra40k/``. These datasets contain an additional :math:`40{,}000` realizations for each
    Latin hypercube and use random seeds distinct from those in the main ``PNG-pmwd/`` release.
 
-   The data are distributed as compressed tar archives, split into 40 chunks of `1{,}000` realizations
+   The data are distributed as compressed tar archives, split into 40 chunks of :math:`1{,}000` realizations
    each (e.g., ``*_chunk001_run10000-10999.tar``). Each chunk can be downloaded and analyzed
    independently, or all chunks can be combined with the corresponding datasets in
    ``PNG-pmwd/`` if a larger training set is desired.
