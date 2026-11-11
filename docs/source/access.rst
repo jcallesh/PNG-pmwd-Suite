@@ -23,7 +23,7 @@ For instructions, see: https://docs.globus.org/guides/tutorials/manage-files/tra
 Data Organization
 -----------------
 
-The PNG-pmwd data are organized within the directory::
+The main PNG-pmwd data are organized within the directory::
 
     /PNG-pmwd/
 
