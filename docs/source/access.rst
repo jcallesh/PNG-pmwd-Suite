@@ -40,10 +40,32 @@ The relevant subdirectories and files are structured as follows:
     │   │
     │   ├── latin_hypercube_params_{Dataset}.txt   # Latin hypercube parameter values
     │   │
+    /PNG-pmwd-extra40k/
+    ├── tars_EQ_om_s8/
+    │   ├── EQ_om_s8_chunk001_run10000-10999.tar
+    │   │ 
+    ├── tars_LC_om_s8//
+    │   ├── LC_om_s8_chunk001_run10000-10999.tar
+    │   │
     ├── PSBS.tar                         # All power spectrum measurements (tar archive)
 
 Here, ``{Dataset}`` corresponds to the labels described in the
 `Latin Hypercube table <latin_hypercubes.html>`_.
+
+.. note::
+
+   An extended version of the ``LH_EQ_om_s8`` and ``LH_LC_om_s8`` datasets is available in
+   ``PNG-pmwd-extra40k/``. These datasets contain an additional `40{,}000` realizations for each
+   Latin hypercube and use random seeds distinct from those in the main ``PNG-pmwd/`` release.
+
+   The data are distributed as compressed tar archives, split into 40 chunks of `1{,}000` realizations
+   each (e.g., ``*_chunk001_run10000-10999.tar``). Each chunk can be downloaded and analyzed
+   independently, or all chunks can be combined with the corresponding datasets in
+   ``PNG-pmwd/`` if a larger training set is desired.
+
+   After extraction, each realization is provided in the same format as the main release,
+   including ``.npz`` files containing the simulation products and accompanying ``.json``
+   files storing the metadata for each run.
 
 
 Command Line Interface
